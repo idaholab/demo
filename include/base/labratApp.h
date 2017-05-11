@@ -5,7 +5,7 @@
 
 class labratApp;
 
-template<>
+template <>
 InputParameters validParams<labratApp>();
 
 class labratApp : public MooseApp
